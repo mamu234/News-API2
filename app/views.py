@@ -22,9 +22,9 @@ def articles():
 
 @app.route('/headlines')
 def headlines():
-    headlines = topHeadlines()
+    news_headlines = topHeadlines()
 
-    return  render_template('headlines.html', headlines = headlines)
+    return  render_template('headlines.html', news_headlines = news_headlines)
 
 @app.route('/sources')
 def sources():
