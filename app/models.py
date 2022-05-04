@@ -1,8 +1,10 @@
 class Sources:
-    def __init__(self, name, description, url):
+    def __init__(self, id,name, description, url, country):
         self.name=name,
         self.description=description
         self.url=url
+        self.id = id
+        self.country = country
         
 class Articles:
     '''Define article model'''
