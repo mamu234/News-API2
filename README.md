@@ -10,3 +10,10 @@ Users can view
 - They can select news source and  acess all news articles 
 - image, description and the time a news article was created.
 -  an article and read the full article on the source website.
+
+### installation 
+
+flask
+python 3.9.6
+Project Setup Instructions
+
