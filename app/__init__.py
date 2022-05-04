@@ -1,6 +1,6 @@
-import os
-import app 
+from flask import Flask
 
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.ge("DATABASE_URL")
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
+app = Flask(__name__)
+
+from app import views
 
